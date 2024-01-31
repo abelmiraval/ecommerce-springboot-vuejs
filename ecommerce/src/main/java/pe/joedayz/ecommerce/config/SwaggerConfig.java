@@ -14,6 +14,8 @@ import io.swagger.v3.oas.models.servers.Server;
 @Configuration
 public class SwaggerConfig {
 
+  // new change
+
   @Value("${joedayz.openapi.dev-url}")
   private String devUrl;
 
